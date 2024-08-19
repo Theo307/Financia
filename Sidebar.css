@@ -1,0 +1,79 @@
+.sidebar {
+    width: 205px;
+    background-color: #1e1e1e;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li:hover {
+    background-color: #333;
+  }
+  
+  nav ul li.active-link {
+    font-weight: bold;
+    color: #2196f3;
+    background-color: #333;
+  }
+  
+  nav ul li i {
+    margin-right: 10px;
+  }
+  
+  .settings,
+  .user {
+    margin-top: 20px;
+  }
+  
+  .settings div,
+  .user div {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .settings div:hover,
+  .user div:hover {
+    color: #2196f3;
+    transition: color 0.3s ease;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-email {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .user {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+  }
+  

@@ -1,0 +1,40 @@
+.article-list-container {
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .article-list-container h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .article-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .article-card {
+    background-color: #2c2c2e; /* Fond similaire à celui de l'image */
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .article-title {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .article-link {
+    color: #0071eb;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .article-link:hover {
+    text-decoration: underline;
+  }
+  

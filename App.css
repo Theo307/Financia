@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #0d1b2a;
+}
+.active-link {
+  font-weight: bold;
+  color: #2196f3;
+}

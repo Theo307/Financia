@@ -1,0 +1,158 @@
+/* StockData.css */
+
+/* Style global pour le body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Conteneur principal */
+.stock-data-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+}
+
+/* Barre de recherche */
+.search-bar-container {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  position: relative; /* Pour positionner la liste des suggestions */
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #2c2c2e;
+  color: white;
+}
+
+/* Liste des suggestions */
+.suggestions-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  position: absolute;
+  top: 50px; /* Ajusté pour être en dessous de l'input */
+  width: 300px;
+  background-color: #2c2c2e;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.suggestion-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.suggestion-item:hover {
+  background-color: #3a3a3c;
+}
+
+.suggestion-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Contenu principal */
+.main-content {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Informations de l'entreprise */
+.company-info {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-info img {
+  width: 100px;
+}
+
+.company-info div {
+  text-align: center;
+}
+
+.company-info h2 {
+  margin-bottom: 5px;
+}
+
+.company-info p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.negative-value {
+  color: red;
+}
+
+/* Graphique */
+.chart-container {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin-top: 20px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+/* Autres informations */
+.additional-info {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 20px;
+}
+/* Bénéfice/Perte positif en vert */
+.positive-value {
+  color: green;
+}
+
+/* Bénéfice/Perte négatif en rouge */
+.negative-value {
+  color: red;
+}
+
+/* Conteneur du graphique pour s'assurer que l'arrière-plan couvre toute la zone */
+.chart-container {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin-top: 20px;
+  background-color: #1e1e24;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box; /* S'assure que tout le contenu reste à l'intérieur */
+}
+
